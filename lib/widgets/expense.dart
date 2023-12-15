@@ -52,7 +52,7 @@ class _ExpenseState extends State<Expense> {
   @override
   Widget build(BuildContext context) {
     Widget mainContent = const Center(
-      child: Text('OJAN KONTOL'),
+      child: Text('Tidak ada catatan'),
     );
 
     if (_registeredExpense.isNotEmpty) {
